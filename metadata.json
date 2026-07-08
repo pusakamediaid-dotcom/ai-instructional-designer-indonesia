@@ -1,0 +1,6 @@
+{
+  "name": "AI Instructional Designer Indonesia",
+  "description": "Asisten AI berbasis Gemini untuk membantu guru Indonesia menyusun perangkat pembelajaran (Modul Ajar, LKPD, Bahan Ajar) dengan metode Backward Design (Understanding by Design). Mendukung dua jalur regulasi: Kemendikbud (CP 046/H/KR/2025) dan Kemenag (KMA 1503/2025 + KBC 6077/2025).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

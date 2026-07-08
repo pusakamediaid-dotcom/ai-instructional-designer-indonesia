@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* --------------------------------------------------------------------
+ * Dual-mode palette (Kemendikbud / Kemenag)
+ * Referensi: Blueprint GPP-AI §6.3
+ * Mode aktif diset lewat atribut `data-kurikulum` pada <html> atau <body>
+ * (opsional — komponen ModeBadge sudah membaca prop langsung).
+ * -------------------------------------------------------------------- */
+:root {
+  /* Default: Kemendikbud (indigo/biru) */
+  --mode-primary: #4F46E5;         /* indigo-600 */
+  --mode-primary-soft: #E0E7FF;    /* indigo-100 */
+  --mode-primary-strong: #3730A3;  /* indigo-800 */
+  --mode-accent: #2563EB;          /* blue-600  */
+}
+
+[data-kurikulum="KMA 1503"] {
+  /* Kemenag – Kurikulum Berbasis Cinta (teal/hijau) */
+  --mode-primary: #0D9488;         /* teal-600  */
+  --mode-primary-soft: #CCFBF1;    /* teal-100  */
+  --mode-primary-strong: #115E59;  /* teal-800  */
+  --mode-accent: #059669;          /* emerald-600 */
+}
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Brand Colors */
+  --color-primary: #2563EB;
+  --color-primary-hover: #1D4ED8;
+  --color-secondary: #4F46E5;
+  --color-accent: #7C3AED;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6B7280;
+  --color-border-brand: #E5E7EB;
+  --color-page-bg: #F8FAFC;
+  --color-card-bg: #FFFFFF;
+
+  /* Overriding standard Slate, Gray, Indigo colors to follow brand colors globally */
+  --color-slate-50: #F8FAFC;
+  --color-slate-100: #F1F5F9;
+  --color-slate-200: #E2E8F0;
+  --color-slate-300: #CBD5E1;
+  --color-slate-400: #94A3B8;
+  --color-slate-500: #64748B;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1E293B;
+  --color-slate-900: #0F172A;
+
+  --color-indigo-50: #EEF2FF;
+  --color-indigo-100: #E0E7FF;
+  --color-indigo-200: #C7D2FE;
+  --color-indigo-300: #A5B4FC;
+  --color-indigo-400: #818CF8;
+  --color-indigo-500: #6366F1;
+  --color-indigo-600: #2563EB; /* Primary */
+  --color-indigo-700: #1D4ED8; /* Maps to primary hover */
+  --color-indigo-800: #1E3A8A;
+  --color-indigo-900: #1E3A8A;
+  --color-indigo-950: #172554;
+
+  /* Custom geometry definitions to style cards and buttons */
+  --radius-lg: 16px;   /* Button / Form Radius: 16px */
+  --radius-xl: 16px;   /* Form / Button Radius: 16px */
+  --radius-2xl: 20px;  /* Card Radius: 20px */
+  
+  --shadow-xs: 0 10px 30px rgba(0,0,0,0.05); /* Card Shadow */
+  --shadow-sm: 0 8px 20px rgba(37,99,235,0.20); /* Primary Button Shadow */
+  --shadow-md: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+@layer base {
+  body {
+    background-color: #F8FAFC;
+    color: #111827;
+    font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+  }
+
+  /* Transition and subtle animations */
+  button, select, input, textarea, a {
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Form input overrides */
+  input[type="text"], input[type="number"], select, textarea {
+    border-radius: 16px !important;
+    border: 1px solid #E5E7EB !important;
+    font-size: 14px !important;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+  input[type="text"]:focus, input[type="number"]:focus, select:focus, textarea:focus {
+    outline: none !important;
+    border-color: #2563EB !important;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12) !important;
+    background-color: #FFFFFF !important;
+  }
+
+  /* Rounded checkboxes and radios */
+  input[type="checkbox"] {
+    border-radius: 4px !important;
+    accent-color: #2563EB;
+  }
+  input[type="radio"] {
+    border-radius: 9999px !important;
+    accent-color: #2563EB;
+  }
+
+  /* Scale on button hover */
+  button:not(:disabled):hover {
+    transform: scale(1.02);
+  }
+}
+
+/* Style for Visual Rubric Editor and beautiful custom tables */
+.rubric-visual-editor table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.rubric-visual-editor th, .rubric-visual-editor td {
+  border: 1px solid #cbd5e1 !important;
+  padding: 10px 12px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  line-height: 1.4 !important;
+}
+
+.rubric-visual-editor th {
+  background-color: #f1f5f9 !important;
+  font-weight: bold !important;
+  color: #1e293b !important;
+}
+
+.rubric-visual-editor td {
+  color: #334155 !important;
+}
+

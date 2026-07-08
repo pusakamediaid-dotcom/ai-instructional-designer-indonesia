@@ -1,0 +1,1292 @@
+{
+  "_meta": {
+    "judul": "Capaian Pembelajaran Fase A (Kemendikbud)",
+    "sumber": "KepBSKAP 046/H/KR/2025",
+    "jumlah_entri": 160,
+    "catatan": "Seed data — belum di-wire ke UI di v0.1.0. Lihat docs/ROADMAP.md §3.",
+    "kategori_mapel": "umum",
+    "jalur": "kemendikbud"
+  },
+  "data": [
+    {
+      "no": 1,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase A",
+      "elemen": "Menyimak",
+      "deskripsi": "Memahami informasi dari teks nonsastra berbentuk teks aural (teks yang dibacakan dan/atau didengarkan) berupa percakapan yang berkaitan dengan diri, keluarga, dan/atau lingkungan sekitar; dan memahami pesan teks sastra berbentuk teks aural.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 2,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase A",
+      "elemen": "Membaca dan Memirsa",
+      "deskripsi": "Membaca kata-kata sederhana dengan fasih dari bacaan dan/atau tayangan yang dipirsa tentang diri, keluarga, kesehatan, dan/atau lingkungan sekitar; dan memahami isi bacaan dan/atau tayangan yang dipirsa tentang diri, keluarga, kesehatan, dan/atau lingkungan sekitar.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 3,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase A",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "deskripsi": "Merespons dengan bertanya tentang sesuatu, menjawab, dan menanggapi komentar orang lain dengan baik dan santun; mengungkapkan perasaan dan gagasan secara lisan; dan menceritakan kembali isi berbagai tipe teks yang dibaca, dipirsa, atau didengar.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 4,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase A",
+      "elemen": "Menulis",
+      "deskripsi": "Menulis permulaan dengan benar di atas kertas dan/atau melalui media digital; mengembangkan tulisan tangan yang semakin baik; dan menulis berbagai tipe teks sederhana tentang diri, keluarga, dan/atau lingkungan sekitar.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 5,
+      "mapel": "Matematika",
+      "fase": "Fase A",
+      "elemen": "Bilangan",
+      "deskripsi": "Menunjukkan pemahaman dan memiliki intuisi bilangan ( number sense ) pada bilangan cacah sampai 100; membaca, menulis, menentukan nilai tempat, membandingkan, mengurutkan, serta melakukan komposisi (menyusun) dan dekomposisi (mengurai) bilangan; melakukan operasi penjumlahan dan pengurangan menggunakan benda-benda konkret yang banyaknya sampai 20; dan menunjukkan pemahaman pecahan sebagai bagian dari keseluruhan melalui konteks membagi sebuah benda atau kumpulan benda sama banyak (setengah dan seperempat).",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 6,
+      "mapel": "Matematika",
+      "fase": "Fase A",
+      "elemen": "Aljabar",
+      "deskripsi": "Menunjukan pemahaman makna simbol matematika \" $=$ \" dalam suatu kalimat matematika yang terkait dengan penjumlahan dan pengurangan bilangan cacah sampai 20 menggunakan gambar. Murid dapat mengenali, meniru, dan melanjutkan pola bukan bilangan (misalnya, gambar, warna, bunyi/suara).",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 7,
+      "mapel": "Matematika",
+      "fase": "Fase A",
+      "elemen": "Pengukuran",
+      "deskripsi": "Membandingkan panjang dan berat benda secara langsung, dan membandingkan durasi waktu; mengukur dan mengestimasi panjang dan berat benda menggunakan satuan tidak baku.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 8,
+      "mapel": "Matematika",
+      "fase": "Fase A",
+      "elemen": "Geometri",
+      "deskripsi": "Mengenal berbagai bangun datar (segitiga, segiempat, segi banyak, lingkaran) dan bangun ruang (balok, kubus, kerucut, dan bola); melakukan komposisi (penyusunan) dan dekomposisi (penguraian) suatu bangun datar; dan menentukan posisi benda terhadap benda lain.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 9,
+      "mapel": "Matematika",
+      "fase": "Fase A",
+      "elemen": "Analisis Data dan Peluang",
+      "deskripsi": "Mengurutkan, menyortir, mengelompokkan, membandingkan, dan menyajikan data dari banyak benda dengan menggunakan turus dan piktogram paling banyak 4 kategori.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 10,
+      "mapel": "Seni Tari",
+      "fase": "Fase A",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengenal bentuk tari sebagai media komunikasi serta mengembangkan kesadaran diri dalam bereksplorasi unsur utama tari meliputi gerak, ruang, tenaga, waktu, gerak di tempat dan gerak berpindah.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 11,
+      "mapel": "Seni Tari",
+      "fase": "Fase A",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Mengidentifikasi unsur utama tari meliputi gerak, ruang, tenaga, waktu, gerak di tempat dan gerak berpindah, serta mengemukakan pencapaian diri secara lisan, tulisan, dan kinestetik.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 12,
+      "mapel": "Seni Tari",
+      "fase": "Fase A",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Meragakan hasil gerak berdasarkan etika sebagai penampil dan penonton dengan keyakinan dan percaya diri saat mengekspresikan ide, perasaan kepada penonton atau lingkungan sekitar.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 13,
+      "mapel": "Seni Tari",
+      "fase": "Fase A",
+      "elemen": "Menciptakan (Creating)",
+      "deskripsi": "Mengembangkan unsur utama tari (gerak, ruang, waktu, dan tenaga), gerak di tempat, dan gerak berpindah untuk membuat gerak sederhana yang memiliki kesatuan gerak yang indah.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 14,
+      "mapel": "Seni Tari",
+      "fase": "Fase A",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menerima proses pembelajaran sehingga tumbuh rasa ingin tahu dan dapat menunjukkan antusiasme yang berdampak pada kemampuan diri dalam menyelesaikan aktivitas pembelajaran tari.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 15,
+      "mapel": "Seni Musik",
+      "fase": "Fase A",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengenali unsur-unsur musik (nada dan irama) menggunakan anggota tubuh maupun alat musik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 16,
+      "mapel": "Seni Musik",
+      "fase": "Fase A",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Melakukan umpan balik mengenai praktik bermain musik diri sendiri atau orang lain menggunakan bahasa sehari-hari.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 17,
+      "mapel": "Seni Musik",
+      "fase": "Fase A",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Menirukan pola irama dan nada menggunakan alat musik ritmis atau melodis; mengenali ragam alat musik dan bunyi yang dihasilkan; mengenali cara memainkan dan membersihkan instrumen/alat musik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 18,
+      "mapel": "Seni Musik",
+      "fase": "Fase A",
+      "elemen": "Menciptakan (Creating)",
+      "deskripsi": "Membuat pola irama menggunakan anggota tubuh atau alat musik ritmis yang tersedia di lingkungan sekitar.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 19,
+      "mapel": "Seni Musik",
+      "fase": "Fase A",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menunjukkan ekspresi senang dalam kegiatan bermusik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 20,
+      "mapel": "Seni Rupa",
+      "fase": "Fase A",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengenali dan menyebutkan unsur-unsur rupa dalam benda-benda di sekitar/karya seni rupa.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 21,
+      "mapel": "Seni Rupa",
+      "fase": "Fase A",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Merefleksikan dan mengapresiasi karya diri sendiri.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 22,
+      "mapel": "Seni Rupa",
+      "fase": "Fase A",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Mengenali dan menguji coba alat dan/atau bahan yang dimiliki.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 23,
+      "mapel": "Seni Rupa",
+      "fase": "Fase A",
+      "elemen": "Menciptakan (Making/Creating)",
+      "deskripsi": "Membuat karya seni rupa berdasarkan pengalaman dan hasil pengamatan terhadap lingkungan sekitar.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 24,
+      "mapel": "Seni Rupa",
+      "fase": "Fase A",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menghasilkan karya seni rupa yang berdampak pada perasaan dirinya.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 25,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase A",
+      "elemen": "Terampil Bergerak",
+      "deskripsi": "Mempraktikkan keterampilan gerak fundamental dan menerapkannya dalam berbagai situasi gerak yang berbeda; mengeksplorasi berbagai strategi gerak; dan mengeksplorasi berbagai konsep gerak serta menyimpulkan efektivitasnya.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 26,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase A",
+      "elemen": "Belajar Melalui Gerak",
+      "deskripsi": "Menaati peraturan untuk menumbuhkan  fair play  di dalam berbagai aktivitas jasmani; menerapkan strategi kolaborasi ketika berpartisipasi dalam aktivitas jasmani.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 27,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase A",
+      "elemen": "Bergaya Hidup Aktif",
+      "deskripsi": "Berpartisipasi di dalam berbagai aktivitas jasmani dan mengidentifikasi manfaatnya.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 28,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase A",
+      "elemen": "Memilih Hidup yang Menyehatkan",
+      "deskripsi": "Mengenali gaya hidup aktif dan sehat; mengenali manfaat komponen makanan bergizi seimbang; serta mengenali situasi dan potensi yang berisiko terhadap kesehatan dan keselamatan serta strategi mencari bantuan kepada orang dewasa terpercaya.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 29,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase A",
+      "elemen": "Pancasila",
+      "deskripsi": "Mengenal bendera negara, lagu kebangsaan, simbol dan sila-sila Pancasila dalam lambang negara Garuda Pancasila dan simbol Pancasila beserta sila-sila Pancasila; menerapkan nilai-nilai Pancasila di lingkungan keluarga.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 30,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase A",
+      "elemen": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945",
+      "deskripsi": "Mengenal aturan di lingkungan keluarga; menunjukkan dan menceritakan sikap mematuhi aturan di lingkungan keluarga.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 31,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase A",
+      "elemen": "Bhinneka Tunggal Ika",
+      "deskripsi": "Mengenal semboyan Bhinneka Tunggal Ika; mengidentifikasi dan menghargai identitas dirinya sesuai dengan jenis kelamin, hobi, bahasa, serta agama dan kepercayaan di lingkungan sekitar.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 32,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase A",
+      "elemen": "Negara Kesatuan Republik Indonesia",
+      "deskripsi": "Mengenal karakteristik lingkungan tempat tinggal dan sekolah, sebagai bagian dari wilayah Negara Kesatuan Republik Indonesia; menceritakan dan mempraktikkan bekerja sama menjaga lingkungan sekitar dalam keberagaman.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 33,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase B",
+      "elemen": "Menyimak",
+      "deskripsi": "Memahami ide pokok suatu informasi dari teks nonsastra berbentuk teks aural (teks yang dibacakan dan/atau didengarkan); dan memahami isi teks sastra berbentuk teks aural.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 34,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase B",
+      "elemen": "Membaca dan Memirsa",
+      "deskripsi": "Membaca kata-kata baru dengan fasih dari bacaan dan/atau tayangan yang dipirsa; dan memahami ide pokok, ide pendukung, pesan, dan informasi dalam teks sastra dan nonsastra berbentuk cetak dan/atau elektronik.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 35,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase B",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "deskripsi": "Menyajikan pendapat dengan pilihan kata dan sikap tubuh/gestur yang sesuai; menanggapi diskusi sesuai tata cara; dan menceritakan kembali isi dan/atau informasi dari berbagai tipe teks.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 36,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase B",
+      "elemen": "Menulis",
+      "deskripsi": "Menulis berbagai tipe teks sederhana dengan rangkaian kalimat yang beragam; dan menggunakan kaidah kebahasaan dan kosakata baru yang memiliki makna denotatif untuk menulis teks sesuai dengan konteks.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 37,
+      "mapel": "Matematika",
+      "fase": "Fase B",
+      "elemen": "Bilangan",
+      "deskripsi": "Memahami intuisi bilangan pada bilangan cacah sampai 10.000; melakukan operasi penjumlahan dan pengurangan sampai 1.000; perkalian dan pembagian sampai 100; mengenal kelipatan dan faktor, serta perbandingan dan pengurutan pecahan.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 38,
+      "mapel": "Matematika",
+      "fase": "Fase B",
+      "elemen": "Aljabar",
+      "deskripsi": "Menemukan nilai yang tidak diketahui dalam kalimat matematika penjumlahan dan pengurangan sampai 100; mengidentifikasi, meniru, dan mengembangkan pola gambar atau pola bilangan membesar dan mengecil.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 39,
+      "mapel": "Matematika",
+      "fase": "Fase B",
+      "elemen": "Pengukuran",
+      "deskripsi": "Mengukur panjang dan berat benda menggunakan satuan baku (cm, m, g, kg) serta mengukur dan mengestimasi luas dan volume menggunakan satuan tidak baku dan satuan baku berupa bilangan cacah.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 40,
+      "mapel": "Matematika",
+      "fase": "Fase B",
+      "elemen": "Geometri",
+      "deskripsi": "Mendeskripsikan ciri berbagai bentuk bangun datar; menyusun (komposisi) dan mengurai (dekomposisi) berbagai bangun datar dengan lebih dari satu cara jika memungkinkan.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 41,
+      "mapel": "Matematika",
+      "fase": "Fase B",
+      "elemen": "Analisis Data dan Peluang",
+      "deskripsi": "Mengurutkan, membandingkan, menyajikan, menganalisis dan menginterpretasi data dalam bentuk tabel, diagram gambar, piktogram, dan diagram batang (skala satu satuan).",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 42,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase B",
+      "elemen": "Menyimak-Berbicara",
+      "deskripsi": "Memahami dan merespon teks lisan atau teks multimodal sederhana tentang kehidupan sehari-hari baik secara verbal atau non-verbal sesuai konteks.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 43,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase B",
+      "elemen": "Membaca-Memirsa",
+      "deskripsi": "Memahami teks tulis pendek sederhana atau teks multimodal tentang kehidupan sehari-hari dan meresponsnya secara verbal atau non-verbal sesuai konteks.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 44,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase B",
+      "elemen": "Menulis-Mempresentasikan",
+      "deskripsi": "Mengomunikasikan gagasan tentang topik sehari-hari dalam teks tulis pendek atau teks multimodal sesuai konteks.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 45,
+      "mapel": "IPAS",
+      "fase": "Fase B",
+      "elemen": "Pemahaman IPAS",
+      "deskripsi": "Menjelaskan fungsi pancaindra, siklus hidup, pelestarian SDA, perubahan wujud zat, bentuk energi, jenis gaya, interaksi sosial, letak geografis kabupaten/kota/provinsi, bentang alam, sejarah lokal, dan nilai mata uang.",
+      "sumber": "7. IPAS.pdf"
+    },
+    {
+      "no": 46,
+      "mapel": "IPAS",
+      "fase": "Fase B",
+      "elemen": "Keterampilan Proses",
+      "deskripsi": "Menerapkan keterampilan proses: Mengamati, Mempertanyakan dan Memprediksi, Merencanakan dan Melakukan Penyelidikan, Memproses, Menganalisis Data, Mengevaluasi dan Refleksi, serta Mengomunikasikan Hasil.",
+      "sumber": "7. IPAS.pdf"
+    },
+    {
+      "no": 47,
+      "mapel": "Seni Tari",
+      "fase": "Fase B",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengamati bentuk penyajian tari berdasarkan latar belakang serta mengeksplorasi unsur utama tari sesuai level gerak, dan perubahan arah hadap.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 48,
+      "mapel": "Seni Tari",
+      "fase": "Fase B",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Mengidentifikasi unsur utama tari sesuai level gerak, dan perubahan arah hadap, serta menilai pencapaian diri saat melakukan aktivitas pembelajaran tari.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 49,
+      "mapel": "Seni Tari",
+      "fase": "Fase B",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Meragakan hasil tari dengan bekerja secara kooperatif untuk mengembangkan kemampuan bekerja sama dan saling menghargai demi tercapainya tujuan bersama.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 50,
+      "mapel": "Seni Tari",
+      "fase": "Fase B",
+      "elemen": "Menciptakan (Creating)",
+      "deskripsi": "Mengembangkan gerak dengan unsur utama tari, level, dan perubahan arah hadap.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 51,
+      "mapel": "Seni Tari",
+      "fase": "Fase B",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menerima proses pembelajaran sehingga tumbuh rasa ingin tahu dan dapat menunjukkan usaha yang berdampak pada kemampuan diri dalam menyelesaikan aktivitas pembelajaran tari.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 52,
+      "mapel": "Seni Musik",
+      "fase": "Fase B",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengenali nada dan pola irama menggunakan anggota tubuh maupun alat musik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 53,
+      "mapel": "Seni Musik",
+      "fase": "Fase B",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Melakukan umpan balik mengenai praktik bermusik diri sendiri atau orang lain menggunakan istilah musik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 54,
+      "mapel": "Seni Musik",
+      "fase": "Fase B",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Menirukan pola irama dan melodi menggunakan alat musik ritmis atau melodis; menyebutkan karakteristik ragam alat musik dan bunyi yang dihasilkan; mengetahui cara memainkan dan merawat alat musik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 55,
+      "mapel": "Seni Musik",
+      "fase": "Fase B",
+      "elemen": "Menciptakan (Creating)",
+      "deskripsi": "Membuat bunyi menggunakan anggota tubuh atau alat musik ritmis dan melodis yang tersedia di lingkungan sekitar.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 56,
+      "mapel": "Seni Musik",
+      "fase": "Fase B",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menunjukkan minat dalam kegiatan bermusik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 57,
+      "mapel": "Seni Rupa",
+      "fase": "Fase B",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengidentifikasi unsur rupa dan prinsip desain dalam benda-benda di sekitar/karya seni rupa.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 58,
+      "mapel": "Seni Rupa",
+      "fase": "Fase B",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Merefleksikan dan mengapresiasi karya diri sendiri dan teman sekelas menggunakan kosa kata seni rupa yang sesuai.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 59,
+      "mapel": "Seni Rupa",
+      "fase": "Fase B",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Mengenali dan menguji coba alat dan/atau bahan yang dimiliki serta prosedur penggunaannya.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 60,
+      "mapel": "Seni Rupa",
+      "fase": "Fase B",
+      "elemen": "Menciptakan (Making/Creating)",
+      "deskripsi": "Membuat karya seni rupa berdasarkan pengalaman dan hasil pengamatan terhadap lingkungan sekitar.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 61,
+      "mapel": "Seni Rupa",
+      "fase": "Fase B",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menghasilkan karya seni rupa yang berdampak pada perasaan atau mewakili harapannya.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 62,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase B",
+      "elemen": "Terampil Bergerak",
+      "deskripsi": "Menghaluskan keterampilan gerak fundamental dan menerapkannya dalam situasi gerak yang baru; menyesuaikan strategi gerak untuk mendapatkan capaian keterampilan gerak; dan memperagakan berbagai konsep gerak yang dapat diterapkan dalam rangkaian gerak.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 63,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase B",
+      "elemen": "Belajar Melalui Gerak",
+      "deskripsi": "Menerapkan strategi gerak sederhana dan memecahkan masalah gerak; menerapkan peraturan untuk menumbuhkan  fair play  di dalam berbagai aktivitas jasmani; dan berpartisipasi secara positif dalam kelompok atau tim di dalam berbagai aktivitas jasmani.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 64,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase B",
+      "elemen": "Bergaya Hidup Aktif",
+      "deskripsi": "Berpartisipasi dalam berbagai aktivitas jasmani dan mengenali faktor-faktor yang menyebabkan aktivitas jasmani menyenangkan.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 65,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase B",
+      "elemen": "Memilih Hidup yang Menyehatkan",
+      "deskripsi": "Mengenali risiko kesehatan akibat gaya hidup; mengidentifikasi pola makan sehat; dan mempraktikkan penanganan cedera ringan (prinsip pertolongan pertama).",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 66,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase B",
+      "elemen": "Pancasila",
+      "deskripsi": "Mengidentifikasi makna sila-sila Pancasila dan penerapannya; mengenal karakter perumus Pancasila; menunjukkan sikap bangga menjadi anak Indonesia.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 67,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase B",
+      "elemen": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945",
+      "deskripsi": "Mengidentifikasi dan melaksanakan aturan di sekolah dan lingkungan tempat tinggal; mengidentifikasi hak dan kewajiban warga sekolah.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 68,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase B",
+      "elemen": "Bhinneka Tunggal Ika",
+      "deskripsi": "Membedakan dan menghargai identitas diri, keluarga, dan teman sesuai budaya, suku, bahasa, dan agama di lingkungan sekitar.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 69,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase B",
+      "elemen": "Negara Kesatuan Republik Indonesia",
+      "deskripsi": "Mengidentifikasi lingkungan tempat tinggal (RT, RW, Desa, Kecamatan) sebagai bagian NKRI; menunjukkan perilaku kerja sama dalam keberagaman.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 70,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase C",
+      "elemen": "Menyimak",
+      "deskripsi": "Menganalisis informasi dari teks nonsastra berbentuk teks aural (teks yang dibacakan dan/atau didengarkan); dan menganalisis isi teks sastra berbentuk teks aural.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 71,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase C",
+      "elemen": "Membaca dan Memirsa",
+      "deskripsi": "Membaca kata-kata dengan berbagai pola kombinasi huruf dengan fasih; dan menganalisis informasi serta nilai-nilai dalam teks sastra dan nonsastra berwujud teks visual dan/atau audiovisual.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 72,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase C",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "deskripsi": "Mempresentasikan gagasan dari berbagai tipe teks dengan efektif dan santun; dan menyampaikan perasaan berdasarkan fakta, imajinasi secara indah dan menarik dengan kosakata kreatif.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 73,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase C",
+      "elemen": "Menulis",
+      "deskripsi": "Menulis berbagai tipe teks sederhana berdasarkan gagasan, hasil pengamatan, pengalaman, dan/atau imajinasi dengan rangkaian kalimat kompleks; menggunakan kaidah kebahasaan dan kosakata denotatif serta konotatif.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 74,
+      "mapel": "Matematika",
+      "fase": "Fase C",
+      "elemen": "Bilangan",
+      "deskripsi": "Memahami bilangan cacah sampai 1.000.000; menyelesaikan masalah uang; operasi hitung sampai 100.000; KPK dan FPB; serta operasi penjumlahan, pengurangan, perkalian, dan pembagian pecahan.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 75,
+      "mapel": "Matematika",
+      "fase": "Fase C",
+      "elemen": "Aljabar",
+      "deskripsi": "Menemukan nilai yang belum diketahui dalam kalimat matematika sampai 1000; mengembangkan pola bilangan perkalian dan pembagian; serta bernalar secara proporsional untuk rasio satuan.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 76,
+      "mapel": "Matematika",
+      "fase": "Fase C",
+      "elemen": "Pengukuran",
+      "deskripsi": "Menentukan keliling dan luas berbagai bentuk bangun datar serta gabungannya; menghitung durasi waktu dan mengukur besar sudut.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 77,
+      "mapel": "Matematika",
+      "fase": "Fase C",
+      "elemen": "Geometri",
+      "deskripsi": "Mengkonstruksi dan mengurai bangun ruang (kubus, balok); mengenali visualisasi spasial; membandingkan karakteristik bangun datar dan ruang; serta menentukan lokasi pada peta.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 78,
+      "mapel": "Matematika",
+      "fase": "Fase C",
+      "elemen": "Analisis Data dan Peluang",
+      "deskripsi": "Menyajikan dan menganalisis data dalam bentuk gambar, piktogram, diagram batang, dan tabel frekuensi; menentukan kejadian dengan kemungkinan lebih besar atau kecil dalam percobaan acak.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 79,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase C",
+      "elemen": "Menyimak-Berbicara",
+      "deskripsi": "Memahami alur informasi teks secara keseluruhan dan merespon teks lisan atau teks multimodal sederhana tentang topik sehari-hari secara lisan dengan kalimat pendek dan sederhana sesuai konteks.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 80,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase C",
+      "elemen": "Membaca-Memirsa",
+      "deskripsi": "Memahami alur informasi secara keseluruhan, gagasan utama dan informasi rinci dari beragam teks pendek atau teks multimodal tentang topik sehari-hari dan meresponnya sesuai konteks.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 81,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase C",
+      "elemen": "Menulis-Mempresentasikan",
+      "deskripsi": "Mengomunikasikan ide dan pengalamannya melalui berbagai jenis teks tulis sederhana atau teks multimodal tentang topik sehari-hari sesuai konteks.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 82,
+      "mapel": "IPAS",
+      "fase": "Fase C",
+      "elemen": "Pemahaman IPAS",
+      "deskripsi": "Merefleksikan sistem organ tubuh; menganalisis komponen biotik/abiotik; menjelaskan gelombang bunyi/cahaya; energi alternatif; tata surya; geografi Indonesia; sejarah pahlawan; dan kegiatan ekonomi.",
+      "sumber": "7. IPAS.pdf"
+    },
+    {
+      "no": 83,
+      "mapel": "IPAS",
+      "fase": "Fase C",
+      "elemen": "Keterampilan Proses",
+      "deskripsi": "Menerapkan keterampilan proses secara mandiri: Mengamati (persamaan/perbedaan), Mempertanyakan (pertanyaan ilmiah), Penyelidikan mandiri, Mengolah data (tabel/grafik), dan Mengomunikasikan dengan argumen.",
+      "sumber": "7. IPAS.pdf"
+    },
+    {
+      "no": 84,
+      "mapel": "Seni Tari",
+      "fase": "Fase C",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengamati berbagai bentuk tari tradisi yang dapat digunakan untuk mengekspresikan diri melalui unsur pendukung tari.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 85,
+      "mapel": "Seni Tari",
+      "fase": "Fase C",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Mengidentifikasi unsur pendukung tari dalam tari tradisi serta menghargai hasil pencapaian diri dengan mempertimbangkan pendapat orang lain.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 86,
+      "mapel": "Seni Tari",
+      "fase": "Fase C",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Meragakan hasil rangkaian gerak tari menggunakan unsur pendukung tari dengan menunjukan kerja sama dan berperan aktif dalam kelompok.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 87,
+      "mapel": "Seni Tari",
+      "fase": "Fase C",
+      "elemen": "Menciptakan (Creating)",
+      "deskripsi": "Merangkai gerak tari yang berpijak pada tradisi/ kreasi dengan menerapkan desain kelompok.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 88,
+      "mapel": "Seni Tari",
+      "fase": "Fase C",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menanggapi kejadian-kejadian di lingkungan sekitar melalui tari yang disajikan kepada penonton atau masyarakat sekitar.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 89,
+      "mapel": "Seni Musik",
+      "fase": "Fase C",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengenali dan menerapkan unsur-unsur musik (nada, irama dan melodi) menggunakan alat musik ritmis dan melodis serta menunjukkan tingkat kepekaan akan unsur-unsur musik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 90,
+      "mapel": "Seni Musik",
+      "fase": "Fase C",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Melakukan umpan balik mengenai karya dan kemampuan bermusik diri sendiri atau orang lain menggunakan istilah musik yang tepat.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 91,
+      "mapel": "Seni Musik",
+      "fase": "Fase C",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Mengeksplorasi variasi pola irama, tempo dan melodi dengan alat musik ritmis dan melodis menggunakan notasi musik; menemukan alternatif bunyi melalui eksplorasi material lingkungan.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 92,
+      "mapel": "Seni Musik",
+      "fase": "Fase C",
+      "elemen": "Menciptakan (Creating)",
+      "deskripsi": "Membuat dan mengembangkan pola irama menggunakan anggota tubuh atau alat musik ritmis yang tersedia berdasarkan nilai kearifan lokal daerahnya.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 93,
+      "mapel": "Seni Musik",
+      "fase": "Fase C",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menunjukkan minat dan rasa ingin tahu dalam kegiatan bermusik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 94,
+      "mapel": "Seni Rupa",
+      "fase": "Fase C",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Menjelaskan unsur rupa dan prinsip desain dalam benda-benda di sekitar/karya seni rupa.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 95,
+      "mapel": "Seni Rupa",
+      "fase": "Fase C",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Merefleksikan dan mengapresiasi karya diri sendiri dan teman sekelas menggunakan kosa kata seni rupa yang sesuai.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 96,
+      "mapel": "Seni Rupa",
+      "fase": "Fase C",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Mengenali dan menguji coba variasi teknik penggunaan alat dan/atau bahan.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 97,
+      "mapel": "Seni Rupa",
+      "fase": "Fase C",
+      "elemen": "Menciptakan (Making/Creating)",
+      "deskripsi": "Membuat karya seni rupa berdasarkan pengalaman dan/atau hasil pengamatan terhadap lingkungan sekitar melalui pengembangan imajinasi.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 98,
+      "mapel": "Seni Rupa",
+      "fase": "Fase C",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menghasilkan karya seni rupa yang mewakili minatnya.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 99,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase C",
+      "elemen": "Terampil Bergerak",
+      "deskripsi": "Menyesuaikan keterampilan gerak melintasi berbagai situasi gerak; mentransfer strategi gerak; dan menginvestigasi konsep gerak untuk meningkatkan keterampilan.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 100,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase C",
+      "elemen": "Belajar Melalui Gerak",
+      "deskripsi": "Menguji efektivitas strategi gerak; merancang peraturan alternatif untuk  fair play ; dan menjalankan peran kelompok dalam aktivitas jasmani.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 101,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase C",
+      "elemen": "Bergaya Hidup Aktif",
+      "deskripsi": "Menjelaskan pengaruh aktivitas jasmani teratur terhadap kesehatan; mengidentifikasi rekomendasi aktivitas dan pencegahan perilaku sedenter.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 102,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase C",
+      "elemen": "Memilih Hidup yang Menyehatkan",
+      "deskripsi": "Menghubungkan gaya hidup dengan risiko kesehatan; menjelaskan pola makan sehat; dan mempraktikkan penanganan cedera sedang.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 103,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase C",
+      "elemen": "Pancasila",
+      "deskripsi": "Memahami sejarah kelahiran Pancasila; meneladani sikap perumus; menghubungkan sila-sila sebagai kesatuan; menguraikan makna Pancasila sebagai dasar negara.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 104,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase C",
+      "elemen": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945",
+      "deskripsi": "Mengimplementasikan norma, hak, dan kewajiban warga negara; mengenal Pembukaan UUD 1945; mempraktikkan musyawarah.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 105,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase C",
+      "elemen": "Bhinneka Tunggal Ika",
+      "deskripsi": "Menyajikan hasil identifikasi sikap menghormati, menjaga, dan melestarikan keberagaman budaya sesuai semboyan Bhinneka Tunggal Ika.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 106,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase C",
+      "elemen": "Negara Kesatuan Republik Indonesia",
+      "deskripsi": "Mengenal wilayah kabupaten/kota dan provinsi sebagai bagian NKRI; menunjukkan perilaku gotong royong sebagai wujud bela negara.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 107,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase D",
+      "elemen": "Menyimak",
+      "deskripsi": "Menganalisis gagasan, pandangan, arahan, dan/atau pesan dari teks nonsastra berbentuk teks aural; dan menganalisis unsur intrinsik teks sastra berbentuk teks aural.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 108,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase D",
+      "elemen": "Membaca dan Memirsa",
+      "deskripsi": "Menganalisis informasi dari berbagai tipe teks visual/audiovisual untuk makna tersurat dan tersirat; mengevaluasi kualitas dan kredibilitas teks.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 109,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase D",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "deskripsi": "Mempresentasikan gagasan untuk tujuan pengajuan usul dan solusi secara kritis; menyajikan ungkapan kepedulian dari teks multimodal.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 110,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase D",
+      "elemen": "Menulis",
+      "deskripsi": "Menulis gagasan, pandangan, arahan secara logis, kritis, dan kreatif; menggunakan kosakata denotatif, konotatif, dan kiasan.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 111,
+      "mapel": "Matematika",
+      "fase": "Fase D",
+      "elemen": "Bilangan",
+      "deskripsi": "Membaca, menulis, dan membandingkan bilangan bulat, rasional, desimal, berpangkat; menerapkan operasi aritmatika; serta menggunakan rasio (skala, proporsi).",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 112,
+      "mapel": "Matematika",
+      "fase": "Fase D",
+      "elemen": "Aljabar",
+      "deskripsi": "Menggeneralisasi pola; menyatakan situasi ke bentuk aljabar; memahami relasi dan fungsi; menyelesaikan SPLDV dan pertidaksamaan linear.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 113,
+      "mapel": "Matematika",
+      "fase": "Fase D",
+      "elemen": "Pengukuran",
+      "deskripsi": "Menentukan keliling, luas, panjang busur, luas juring lingkaran; volume bangun ruang (prisma, tabung, bola, limas, kerucut).",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 114,
+      "mapel": "Matematika",
+      "fase": "Fase D",
+      "elemen": "Geometri",
+      "deskripsi": "Membuat jaring-jaring bangun ruang; memahami hubungan antar-sudut, kekongruenan, kesebangunan; teorema Pythagoras; dan transformasi tunggal.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 115,
+      "mapel": "Matematika",
+      "fase": "Fase D",
+      "elemen": "Analisis Data dan Peluang",
+      "deskripsi": "Merumuskan pertanyaan dan menganalisis data; menggunakan rerata, median, modus; serta menggunakan pengertian peluang.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 116,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase D",
+      "elemen": "Menyimak-Berbicara",
+      "deskripsi": "Memahami alur informasi, gagasan utama dan informasi rinci dari teks lisan tentang topik sehari-hari; menggunakan kalimat sederhana dan majemuk.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 117,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase D",
+      "elemen": "Membaca-Memirsa",
+      "deskripsi": "Memahami alur informasi, informasi tersurat dan tersirat dari berbagai jenis teks tertulis atau teks multimodal tentang topik sehari-hari atau minat.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 118,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase D",
+      "elemen": "Menulis-Mempresentasikan",
+      "deskripsi": "Mengomunikasikan gagasan dalam berbagai teks tertulis/multimodal; menggunakan kalimat sederhana dan majemuk; mempertahankan argumen.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 119,
+      "mapel": "IPA",
+      "fase": "Fase D",
+      "elemen": "Pemahaman IPA (Umum)",
+      "deskripsi": "Mempelajari topik fisika, kimia, biologi, serta bumi dan antariksa untuk melatih sikap ilmiah (berpikir kritis, analitis, terbuka, jujur, solutif).",
+      "sumber": "7. IPAS.pdf"
+    },
+    {
+      "no": 120,
+      "mapel": "Seni Tari",
+      "fase": "Fase D",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengamati latar belakang, jenis, fungsi, dan nilai tari dalam konteks budaya.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 121,
+      "mapel": "Seni Tari",
+      "fase": "Fase D",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Mengelompokkan jenis, fungsi, dan nilai tari berdasarkan latar belakang budaya serta mengukur hasil pencapaian karya tari.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 122,
+      "mapel": "Seni Tari",
+      "fase": "Fase D",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Merancang konsep tari kreasi yang merefleksikan jenis, fungsi, dan nilai dari tari tradisi dengan mempertimbangkan unsur utama dan pendukung tari.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 123,
+      "mapel": "Seni Tari",
+      "fase": "Fase D",
+      "elemen": "Menciptakan (Creating)",
+      "deskripsi": "Membuat gerak tari kreasi berdasarkan jenis dan fungsi dari tari tradisi dengan menerapkan desain lantai dan level.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 124,
+      "mapel": "Seni Tari",
+      "fase": "Fase D",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menghargai dan mengajak orang lain untuk mencintai dan bangga terhadap tari tradisi melalui proses kreatif yang dilakukan.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 125,
+      "mapel": "Seni Musik",
+      "fase": "Fase D",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Mengenali dan menerapkan unsur musik dengan teknologi; mengidentifikasi karakteristik musik berbagai genre dan era.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 126,
+      "mapel": "Seni Musik",
+      "fase": "Fase D",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Melakukan umpan balik kemampuan bermain musik sesuai genre menggunakan istilah musik yang tepat.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 127,
+      "mapel": "Seni Musik",
+      "fase": "Fase D",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Menerapkan seluruh proses praktik musik untuk perbaikan; menyajikan musik daerah, Nusantara, dan modern Indonesia.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 128,
+      "mapel": "Seni Musik",
+      "fase": "Fase D",
+      "elemen": "Menciptakan (Creating)",
+      "deskripsi": "Mengenali dan menghasilkan lagu sederhana dengan mengembangkan irama dan melodi menggunakan berbagai alat musik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 129,
+      "mapel": "Seni Musik",
+      "fase": "Fase D",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menunjukkan minat, empati, dan kepedulian terhadap isu-isu di lingkungan melalui kegiatan bermusik.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 130,
+      "mapel": "Seni Rupa",
+      "fase": "Fase D",
+      "elemen": "Mengalami (Experiencing)",
+      "deskripsi": "Menganalisis unsur rupa dan prinsip desain dalam benda-benda di sekitar/karya seni rupa.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 131,
+      "mapel": "Seni Rupa",
+      "fase": "Fase D",
+      "elemen": "Merefleksikan (Reflecting)",
+      "deskripsi": "Merefleksikan dan membandingkan unsur rupa, prinsip desain, dan fungsi karya seni rupa menggunakan kosa kata seni rupa yang sesuai.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 132,
+      "mapel": "Seni Rupa",
+      "fase": "Fase D",
+      "elemen": "Berpikir dan Bekerja Artistik",
+      "deskripsi": "Mengaplikasikan variasi teknik; mengeksplorasi potensi alat dan bahan yang ada di lingkungan sekitar.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 133,
+      "mapel": "Seni Rupa",
+      "fase": "Fase D",
+      "elemen": "Menciptakan (Making/Creating)",
+      "deskripsi": "Membuat karya seni rupa dengan mempertimbangkan fungsi, menggunakan gaya atau teknik yang telah dipelajari.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 134,
+      "mapel": "Seni Rupa",
+      "fase": "Fase D",
+      "elemen": "Berdampak (Impacting)",
+      "deskripsi": "Menghasilkan karya seni rupa untuk merespon pengalaman sehari-hari dan mengekspresikan perasaan atau minat.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 135,
+      "mapel": "Prakarya Budi Daya",
+      "fase": "Fase D",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menjelaskan aspek budi daya, menyusun rencana, menghasilkan produk aman dengan kemasan sederhana, serta mengevaluasi proses.",
+      "sumber": "16. PRAKARYA.pdf"
+    },
+    {
+      "no": 136,
+      "mapel": "Prakarya Kerajinan",
+      "fase": "Fase D",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Memahami observasi produk, merancang desain, membuat produk kerajinan, dan merefleksikan proses serta hasil.",
+      "sumber": "16. PRAKARYA.pdf"
+    },
+    {
+      "no": 137,
+      "mapel": "Prakarya Pengolahan",
+      "fase": "Fase D",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Mengidentifikasi karakteristik bahan, merancang modifikasi, membuat produk pangan/nonpangan (K3), serta mengevaluasi tahapan produksi.",
+      "sumber": "16. PRAKARYA.pdf"
+    },
+    {
+      "no": 138,
+      "mapel": "Prakarya Rekayasa",
+      "fase": "Fase D",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menganalisis aspek observasi, merancang desain teknologi tepat guna, membuat prototipe ergonomis, dan merefleksikan fungsi nilai guna.",
+      "sumber": "16. PRAKARYA.pdf"
+    },
+    {
+      "no": 139,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase D",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menerapkan keterampilan gerak; membuktikan strategi efektif; menjelaskan reaksi tubuh; menganalisis risiko gaya hidup; dan merancang pola makan sehat.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 140,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase D",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Memahami sejarah Pancasila; menerapkan norma; mengidentifikasi keberagaman SARA; memahami proklamasi dan menjaga keutuhan wilayah NKRI.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 141,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase E",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Mengevaluasi gagasan teks aural; mengevaluasi informasi visual/audiovisual; mempresentasikan gagasan secara sistematis; menulis secara logis dan kritis.",
+      "sumber": "4. BI.pdf"
+    },
+    {
+      "no": 142,
+      "mapel": "Matematika",
+      "fase": "Fase E",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menggeneralisasi sifat pangkat; menyelesaikan sistem pertidaksamaan, fungsi kuadrat/eksponensial; menerapkan trigonometri; representasi data statistik.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 143,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase E",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Memahami teks fiksi/non-fiksi; menganalisis informasi tersurat/tersirat; menulis teks secara tertulis atau multimodal; mempertahankan argumen isu terkini.",
+      "sumber": "6. BING.pdf"
+    },
+    {
+      "no": 144,
+      "mapel": "IPA",
+      "fase": "Fase E",
+      "elemen": "Pemahaman IPA (Umum)",
+      "deskripsi": "Mempelajari topik fisika, kimia, biologi, serta bumi dan antariksa untuk melatih sikap ilmiah (berpikir kritis, analitis, terbuka, jujur, solutif).",
+      "sumber": "7. IPAS.pdf"
+    },
+    {
+      "no": 145,
+      "mapel": "Seni Tari",
+      "fase": "Fase E",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menginterpretasi makna/simbol; membandingkan makna; merancang karya tari; menata gerak pertunjukan; aktualisasi diri melalui pertunjukan.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 146,
+      "mapel": "Seni Musik",
+      "fase": "Fase E",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menjelaskan unsur musik dan teknologi; menganalisis genre; menyajikan musik nusantara; menciptakan karya untuk persoalan masyarakat.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 147,
+      "mapel": "Seni Rupa",
+      "fase": "Fase E",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Mengeksplorasi unsur rupa; merefleksikan fungsi karya; menghubungkan seni dengan bidang lain; membuat karya dengan gaya pilihan; mengajak orang lain melalui karya.",
+      "sumber": "13. SENI RUPA.pdf"
+    },
+    {
+      "no": 148,
+      "mapel": "Prakarya (Budi Daya/Kerajinan/Pengolahan/Rekayasa)",
+      "fase": "Fase E",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menganalisis teknik budi daya ekonomi; mengeksplorasi kerajinan nusantara; merancang pengembangan produk pangan; merancang teknologi terapan.",
+      "sumber": "16. PRAKARYA.pdf"
+    },
+    {
+      "no": 149,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase E",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menerapkan gerak spesifik menantang; merefleksikan strategi gerak; menginvestigasi dampak kebugaran; mengevaluasi risiko kesehatan gaya hidup.",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 150,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase E",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menganalisis cara pandang perumus Pancasila; menerapkan perilaku taat hukum; menyajikan makna Bhinneka Tunggal Ika; memahami peran warga negara.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 151,
+      "mapel": "Bahasa Indonesia",
+      "fase": "Fase F",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Mengevaluasi teks nonsastra/sastra aural; merefleksikan gagasan teks visual; mempresentasikan gagasan sesuai norma; menulis pengetahuan metakognisi.",
+      "sumber": "2, 1"
+    },
+    {
+      "no": 152,
+      "mapel": "Matematika (Umum & Tingkat Lanjut)",
+      "fase": "Fase F",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menjelaskan barisan/deret; fungsi invers; hubungan lingkaran; peluang majemuk; polinomial; matriks; vektor; kalkulus (turunan/integral).",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 153,
+      "mapel": "Bahasa Inggris (Umum & Tingkat Lanjut)",
+      "fase": "Fase F",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Memahami isu terkini/topik mapel lain; mengevaluasi teks narasi/eksposisi; mengomunikasikan gagasan kompleks; strategi koreksi; menulis cerpen.",
+      "sumber": "8, 9"
+    },
+    {
+      "no": 154,
+      "mapel": "Seni Tari",
+      "fase": "Fase F",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Mengelaborasi tari tradisi/kreasi; mengevaluasi nilai estetis; mengembangkan manajemen pertunjukan; mengkomposisi tari; mempengaruhi apresiasi orang lain.",
+      "sumber": "14. SENI TARI.pdf"
+    },
+    {
+      "no": 155,
+      "mapel": "Seni Musik",
+      "fase": "Fase F",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Mengevaluasi karya secara musikal; mendokumentasikan kebiasaan bermusik; menyajikan ansambel mancanegara; manajemen pementasan.",
+      "sumber": "11. SENI MUSIK.pdf"
+    },
+    {
+      "no": 156,
+      "mapel": "Seni Rupa",
+      "fase": "Fase F",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Mengeksplorasi unsur rupa; merefleksikan fungsi; menganalisis potensi alat bahan lingkungan; merespon isu sosial melalui karya seni.",
+      "sumber": "3, 5"
+    },
+    {
+      "no": 157,
+      "mapel": "Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)",
+      "fase": "Fase F",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Mengevaluasi keterampilan gerak spesifik; mengevaluasi  fair play ; mengadvokasi gaya hidup aktif; mempraktikkan tindakan penyelamatan hidup (POS).",
+      "sumber": "18. PJOK.pdf"
+    },
+    {
+      "no": 158,
+      "mapel": "Pendidikan Pancasila",
+      "fase": "Fase F",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Menganalisis tantangan nilai Pancasila global; menganalisis dinamika UUD 1945; memberi solusi konflik keberagaman; mendemonstrasikan demokrasi Pancasila.",
+      "sumber": "3. PP.pdf"
+    },
+    {
+      "no": 159,
+      "mapel": "Bahasa Inggris",
+      "fase": "Fase A-F",
+      "elemen": "Umum",
+      "deskripsi": "Membuka wawasan diri, hubungan sosial, kebudayaan, dan kesempatan kerja global melalui kemampuan berkomunikasi dengan warga dunia.",
+      "sumber": "5. MAT.pdf"
+    },
+    {
+      "no": 160,
+      "mapel": "Seni Rupa",
+      "fase": "Fase A-F",
+      "elemen": "Semua Elemen",
+      "deskripsi": "Membangun dimensi profil lulusan (iman, takwa, penalaran kritis, kreativitas, dll) serta membangun kemampuan olah rasa dan regulasi diri.",
+      "sumber": "11. SENI MUSIK.pdf"
+    }
+  ]
+}
