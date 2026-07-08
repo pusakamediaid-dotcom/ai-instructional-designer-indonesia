@@ -134,10 +134,10 @@ export default function App() {
 
   // 4 main sections
   const sections = [
-    { title: '📖 KONTEKS PEMBELAJARAN', subtitle: 'Data Utama & Fokus' },
-    { title: '🎯 TUJUAN & BUKTI BELAJAR', subtitle: 'TP, KKTP, & Evidence' },
-    { title: '🧩 PAKET PEMBELAJARAN', subtitle: 'Asesmen & Aktivitas' },
-    { title: '📄 HASIL AKHIR', subtitle: 'Pratinjau & Dokumen' }
+    { title: 'KONTEKS PEMBELAJARAN', subtitle: 'Data Utama & Fokus' },
+    { title: 'TUJUAN & BUKTI BELAJAR', subtitle: 'TP, KKTP, & Evidence' },
+    { title: 'PAKET PEMBELAJARAN', subtitle: 'Asesmen & Aktivitas' },
+    { title: 'HASIL AKHIR', subtitle: 'Pratinjau & Dokumen' }
   ];
 
   const [currentStep, setCurrentStep] = useState<number>(0); // active expanded section index (0, 1, 2, 3)
@@ -695,15 +695,15 @@ export default function App() {
               <School className="w-8 h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold tracking-tight font-sans">GuruAI Indonesia</h1>
-              <p className="text-xs text-indigo-100 font-medium">Asisten AI Co-Designer • Merancang Pembelajaran Bermakna (UbD)</p>
+              <h1 className="text-2xl font-bold tracking-tight font-sans">AI Instructional Designer Indonesia</h1>
+              <p className="text-xs text-indigo-100 font-medium">Asisten Perancang Perangkat Pembelajaran (Backward Design)</p>
             </div>
           </div>
           <div className="flex items-center gap-2 flex-wrap justify-center sm:justify-end">
             <ModeBadge kurikulum={discovery.kurikulum} />
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/25 text-xs shadow-inner">
               <span className="w-2 h-2 bg-[#10B981] rounded-full animate-pulse"></span>
-              <span className="font-semibold text-white">Workspace V2 Aktif</span>
+              <span className="font-semibold text-white">Aktif</span>
             </div>
           </div>
         </div>
@@ -740,7 +740,7 @@ export default function App() {
               </div>
             </div>
             <div className="space-y-1.5">
-              <h4 className="font-bold text-slate-800 text-sm">GuruAI sedang merancang pembelajaran...</h4>
+              <h4 className="font-bold text-slate-800 text-sm">Sedang merancang pembelajaran...</h4>
               <p className="text-xs text-slate-500 font-light leading-relaxed">{pipelineProgress.stepName}</p>
             </div>
             <div className="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
@@ -845,7 +845,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-slate-950 text-slate-400 py-6 border-t border-slate-800 text-center text-xs shrink-0 mt-10">
         <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p>© 2026 GuruAI Indonesia. Hak Cipta Dilindungi Undang-Undang.</p>
+          <p>© 2026 AI Instructional Designer Indonesia. Hak Cipta Dilindungi Undang-Undang.</p>
           <p className="font-light text-slate-500">Mendorong Pembelajaran Bermakna & Desain Kurikulum Berkualitas Tinggi</p>
         </div>
       </footer>

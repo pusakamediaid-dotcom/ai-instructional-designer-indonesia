@@ -1,72 +1,73 @@
-# 📅 Roadmap — Menuju versi lengkap sesuai Blueprint GPP-AI
+# Roadmap — Menuju Versi Lengkap sesuai Blueprint
 
-> 🙏 **Roadmap ini disusun bersama guru MI Fase C** sebagai kasus penggunaan utama. Kalau Anda punya use case berbeda (SMA, SLB, PAUD, mapel yang belum terwakili), silakan [buka issue diskusi](https://github.com/pusakamediaid-dotcom/ai-instructional-designer-indonesia/issues/new?template=feature_request.yml) — kami senang dengar konteks Anda.
+> Roadmap ini disusun bersama guru madrasah ibtidaiyah Fase C sebagai kasus penggunaan utama. Bila Anda memiliki kebutuhan berbeda (SMA, SLB, PAUD, mata pelajaran yang belum terwakili), silakan [buka issue diskusi](https://github.com/pusakamediaid-dotcom/ai-instructional-designer-indonesia/issues/new?template=feature_request.yml) — konteks Anda akan sangat membantu.
 
-Dokumen ini adalah ringkasan **9-bagian Blueprint GPP-AI** (Generator Perangkat Pembelajaran berbasis AI) yang menjadi visi jangka panjang aplikasi. Versi saat ini (v0.1.0) adalah **MVP** — banyak poin di bawah belum diimplementasikan.
+Dokumen ini adalah ringkasan sembilan bagian Blueprint GPP-AI (Generator Perangkat Pembelajaran berbasis AI) yang menjadi visi jangka panjang aplikasi. Rilis saat ini masih dalam tahap awal, banyak poin di bawah belum diimplementasikan.
 
-> **Format effort estimate:** S = &lt;1 hari · M = 1–3 hari · L = 1 minggu · XL = 2+ minggu
+> **Format estimasi effort:** S (kurang dari satu hari), M (1 hingga 3 hari), L (satu minggu), XL (dua minggu atau lebih)
 
 **Cara pakai roadmap ini:**
-- Gunakan `- [x]` untuk selesai, `- [ ]` untuk belum
-- Update progress publik di [Roadmap Tracker Issue #1](https://github.com/pusakamediaid-dotcom/ai-instructional-designer-indonesia/issues/1)
-- Kontribusi PR sangat diterima — pilih 1 checkbox, buka issue, diskusikan pendekatan, buka PR
+
+- Gunakan `- [x]` untuk yang sudah selesai, `- [ ]` untuk yang belum
+- Update progres publik di [Roadmap Tracker Issue #1](https://github.com/pusakamediaid-dotcom/ai-instructional-designer-indonesia/issues/1)
+- Kontribusi Pull Request sangat diterima — pilih satu checkbox, buka issue, diskusikan pendekatan, buka PR
 
 ---
 
 ## 1. Ringkasan Konsep
 
-Satu aplikasi yang menghasilkan **perangkat ajar lengkap** — dari CP sampai lampiran — untuk **dua jalur regulasi** (Kemendikbud &amp; Kemenag), **semua jenjang** (PAUD/RA – SMA/MA/SMK/MAK), **semua mata pelajaran** (umum, agama, mulok), dengan metode **Backward Design** yang benar.
+Satu aplikasi yang menghasilkan perangkat ajar lengkap — dari Capaian Pembelajaran (CP) sampai lampiran — untuk dua jalur regulasi (Kemendikbud dan Kemenag), semua jenjang (PAUD/RA sampai SMA/MA/SMK/MAK), semua mata pelajaran (umum, agama, mulok), dengan metode Backward Design yang benar.
 
-**Perbedaan mendasar dua jalur** (dikodekan sebagai cabang logika, bukan sekadar label):
+Perbedaan mendasar dua jalur (dikodekan sebagai cabang logika, bukan sekadar label):
 
 | Aspek | Kemendikbud | Kemenag |
 |---|---|---|
 | Payung kurikulum | Kurikulum Merdeka (Permendikbudristek 12/2024) | Kurikulum Merdeka + KMA 1503/2025 |
 | Pendekatan | Pembelajaran Mendalam (Deep Learning) | Pembelajaran Mendalam + Kurikulum Berbasis Cinta (KBC 6077/2025) |
-| Nilai tambahan | Dimensi Profil Lulusan | 5 Panca Cinta + Disiplin Positif |
-| Dokumen rujukan | CP per fase, ATP, Modul Ajar | CP + integrasi nilai KBC di **setiap** tahap |
+| Nilai tambahan | Dimensi Profil Lulusan | Lima Panca Cinta dan Disiplin Positif |
+| Dokumen rujukan | CP per fase, ATP, Modul Ajar | CP dengan integrasi nilai KBC di setiap tahap |
 
 ---
 
-## 2. Arsitektur Pipeline 6 Tahap
+## 2. Arsitektur Pipeline Enam Tahap
 
-Pipeline yang ideal (target v0.2–v1.0):
+Pipeline yang ideal (target rilis berikutnya):
 
 ```
 [UI: Wizard Input]
       ↓
-[Curriculum Engine] → pilih ruleset (Kemendikbud/Kemenag) + DB CP
+[Curriculum Engine] → pilih ruleset (Kemendikbud/Kemenag) + basis data CP
       ↓
-[Backward Design Pipeline — 6 tahap berurutan]
-   1. CP  → diambil dari database, bukan digenerate bebas
-   2. TP  → generate, divalidasi terhadap CP
-   3. ATP → generate, urutan logis TP
-   4. Asesmen & Evidence  → generate DULU sebelum kegiatan (kunci UbD)
-   5. Kegiatan Pembelajaran → generate terakhir, diturunkan dari asesmen
-   6. Kelengkapan → Modul Ajar utuh + LKPD + Bahan Ajar + Lampiran
+[Backward Design Pipeline — enam tahap berurutan]
+   1. CP  → diambil dari basis data, bukan digenerasi bebas
+   2. TP  → digenerasi, divalidasi terhadap CP
+   3. ATP → digenerasi, urutan logis Tujuan Pembelajaran
+   4. Asesmen dan Evidence → digenerasi sebelum kegiatan (kunci UbD)
+   5. Kegiatan Pembelajaran → digenerasi terakhir, diturunkan dari asesmen
+   6. Kelengkapan → Modul Ajar utuh, LKPD, Bahan Ajar, Lampiran
       ↓
-[Review & Edit Panel] → guru bisa edit tiap tahap sebelum lanjut
+[Panel Review dan Edit] → guru bisa mengedit tiap tahap sebelum lanjut
       ↓
-[Export] → Google Docs / Word / PDF, siap cetak
+[Ekspor] → Google Docs, Word, PDF, siap cetak
 ```
 
-**Kenapa 6 pemanggilan terpisah?** Inti Backward Design adalah urutan sebab-akibat: asesmen lahir dari TP/ATP, kegiatan lahir dari asesmen. Kalau digenerate sekaligus, Gemini cenderung menulis kegiatan dulu lalu menambal asesmen di akhir.
+Mengapa enam pemanggilan terpisah, bukan satu prompt raksasa? Karena inti Backward Design adalah urutan sebab-akibat: asesmen lahir dari TP dan ATP, kegiatan lahir dari asesmen. Bila digenerasi sekaligus, model cenderung menulis kegiatan dulu lalu menambal asesmen di akhir.
 
 ### Progress
 
 | Effort | Item |
 |---|---|
-| ✅ | Pipeline sederhana (Gemini + fallback) — MVP |
-| ✅ | Wizard 4 seksi UI — MVP |
-| **XL** | - [ ] Pipeline dipecah menjadi 6 pemanggilan terpisah dengan review antar tahap |
-| **M**  | - [ ] Structured output (JSON mode) di tiap tahap |
-| **M**  | - [ ] "Regenerate per tahap" tanpa harus ulangi dari awal |
+| Selesai | Pipeline sederhana (Gemini dengan mesin cadangan) |
+| Selesai | Wizard empat seksi UI |
+| XL | - [ ] Pipeline dipecah menjadi enam pemanggilan terpisah dengan review antar tahap |
+| M | - [ ] Structured output (JSON mode) di tiap tahap |
+| M | - [ ] Regenerate per tahap tanpa mengulangi dari awal |
 
 ---
 
 ## 3. Struktur Data CP (RAG Anti-Halusinasi)
 
-CP **tidak boleh** dikarang model — harus diambil dari database. Skema:
+CP tidak boleh dikarang oleh model, harus diambil dari basis data. Skema yang diusulkan:
 
 ```json
 {
@@ -91,39 +92,39 @@ CP **tidak boleh** dikarang model — harus diambil dari database. Skema:
 
 | Effort | Item |
 |---|---|
-| ✅ | Seed data JSON Fase A — 160 CP dari 17 mapel (belum di-wire ke UI) |
-| **L**  | - [ ] Seed data Fase B, C, D, E, F |
-| **M**  | - [ ] Seed data mapel PAI, Bahasa Arab (Kemenag) |
-| **M**  | - [ ] Seed data mapel Mulok |
-| **XL** | - [ ] Integrasi RAG (knowledge file / vector DB) |
-| **M**  | - [ ] Validator TP terhadap elemen CP |
+| Selesai | Basis data JSON Fase A — 160 CP dari 17 mapel (belum terhubung ke UI) |
+| L | - [ ] Basis data Fase B, C, D, E, F |
+| M | - [ ] Basis data mapel PAI dan Bahasa Arab (Kemenag) |
+| M | - [ ] Basis data mapel Mulok |
+| XL | - [ ] Integrasi RAG (knowledge file atau vector database) |
+| M | - [ ] Validator TP terhadap elemen CP |
 
 ---
 
 ## 4. System Instruction per Tahap
 
-**Satu system instruction inti** yang membawa identitas jalur (Kemendikbud/Kemenag), plus prompt tahap yang spesifik. Aturan wajib:
+Satu system instruction inti yang membawa identitas jalur (Kemendikbud/Kemenag), plus prompt tahap yang spesifik. Aturan wajib:
 
-1. Gunakan **hanya CP dari context**, jangan mengarang CP baru
-2. Jalur Kemenag: setiap TP/ATP/asesmen/kegiatan **wajib** mengintegrasikan minimal 1 dari 5 Panca Cinta **secara organik** + prinsip *mindful-meaningful-joyful* + Disiplin Positif
-3. Jalur Kemendikbud: pendekatan Pembelajaran Mendalam + kaitkan Dimensi Profil Lulusan
-4. Ikuti urutan Backward Design: **asesmen lahir sebelum kegiatan**
+1. Gunakan hanya CP dari context, jangan mengarang CP baru
+2. Jalur Kemenag: setiap TP, ATP, asesmen, dan kegiatan wajib mengintegrasikan minimal satu dari Lima Panca Cinta secara organik, ditambah prinsip mindful-meaningful-joyful dan Disiplin Positif
+3. Jalur Kemendikbud: pendekatan Pembelajaran Mendalam, kaitkan dengan Dimensi Profil Lulusan
+4. Ikuti urutan Backward Design: asesmen lahir sebelum kegiatan
 5. Output terstruktur (heading, bukan paragraf panjang)
 
 ### Progress
 
 | Effort | Item |
 |---|---|
-| ✅ | Instruksi Backward Design di prompt Gemini existing |
-| **M**  | - [ ] Cabang system instruction eksplisit per jalur (Kemendikbud vs Kemenag) |
-| **L**  | - [ ] Validator otomatis integrasi Panca Cinta (Kemenag) |
+| Selesai | Instruksi Backward Design di prompt Gemini existing |
+| M | - [ ] Cabang system instruction eksplisit per jalur (Kemendikbud vs Kemenag) |
+| L | - [ ] Validator otomatis integrasi Panca Cinta (Kemenag) |
 
 ---
 
-## 5. Struktur Output Dokumen (target v1)
+## 5. Struktur Output Dokumen (target rilis lengkap)
 
 ```
-📁 Perangkat Pembelajaran [Mapel] Kelas [X] Fase [Y]
+Perangkat Pembelajaran [Mapel] Kelas [X] Fase [Y]
  ├── 1. Modul Ajar (CP → TP → ATP → Asesmen → Kegiatan)
  ├── 2. LKPD
  ├── 3. Bahan Ajar
@@ -138,111 +139,106 @@ CP **tidak boleh** dikarang model — harus diambil dari database. Skema:
 
 | Effort | Item |
 |---|---|
-| ✅ | Modul Ajar (basic) |
-| ✅ | LKPD (basic) |
-| ✅ | Bahan Ajar (basic) |
-| **S** | - [ ] Rubrik penilaian terpisah (format tabel) |
-| **M** | - [ ] Kisi-kisi soal |
-| **M** | - [ ] Instrumen sikap/karakter terpisah |
-| **M** | - [ ] Instrumen Panca Cinta (khusus Kemenag) |
+| Selesai | Modul Ajar (dasar) |
+| Selesai | LKPD (dasar) |
+| Selesai | Bahan Ajar (dasar) |
+| S | - [ ] Rubrik penilaian terpisah (format tabel) |
+| M | - [ ] Kisi-kisi soal |
+| M | - [ ] Instrumen sikap dan karakter terpisah |
+| M | - [ ] Instrumen Panca Cinta (khusus Kemenag) |
 
 ---
 
-## 6. Desain UI/UX Dual-Mode
+## 6. Desain UI/UX Dua Jalur
 
 **Prinsip:**
+
 - Wizard step-by-step (bukan form panjang sekaligus)
-- Setiap tahap = 1 layar, hasil bisa diedit langsung sebelum lanjut
-- Preview dokumen final mirip Word/Google Docs
+- Setiap tahap adalah satu layar, hasil bisa diedit langsung sebelum lanjut
+- Preview dokumen final mirip Word atau Google Docs
 
 **Gaya visual:**
+
 - Palet: biru-hijau tenang
-- Aksen mode: **Kemendikbud = biru/indigo**, **Kemenag = teal/hijau tosca**
-- Indikator jalur aktif selalu terlihat (badge "Mode: Kemenag – KBC" di header)
+- Aksen mode: Kemendikbud biru/indigo, Kemenag teal/hijau tosca
+- Indikator jalur aktif selalu terlihat (badge di header)
 
 ### Progress
 
 | Effort | Item |
 |---|---|
-| ✅ | Wizard 4 seksi dengan progress stepper |
-| ✅ | Landing Hero |
-| ✅ | Badge Mode di header (Kemendikbud/Kemenag) |
-| ✅ | CSS variables dual-palette (`--mode-primary` reactive via `data-mode`) |
-| **XL** | - [ ] Wizard 6 tahap penuh (bukan 4) |
-| **L**  | - [ ] Preview WYSIWYG mirip Word |
-| **XL** | - [ ] Riwayat/Library modul yang pernah dibuat |
+| Selesai | Wizard empat seksi dengan progress stepper |
+| Selesai | Landing Hero |
+| Selesai | Badge Mode di header (Kemendikbud/Kemenag) |
+| Selesai | CSS variables dua palet (reactive via `html[data-mode]`) |
+| XL | - [ ] Wizard enam tahap penuh |
+| L | - [ ] Preview WYSIWYG mirip Word |
+| XL | - [ ] Riwayat dan pustaka modul yang pernah dibuat |
 
 ---
 
 ## 7. Rekomendasi Teknis
 
-- **Model**: Gemini untuk generate teks panjang terstruktur; aktifkan **structured output (JSON mode)**
-- **Knowledge base CP**: upload sebagai file referensi / system context per jalur-jenjang-mapel
-- **State management**: simpan hasil tiap tahap di state (guru bisa mundur-edit-maju tanpa generate ulang)
+- **Model:** Gemini untuk generasi teks panjang terstruktur, aktifkan structured output (JSON mode)
+- **Basis pengetahuan CP:** upload sebagai file referensi atau system context per jalur-jenjang-mapel
+- **State management:** simpan hasil tiap tahap di state, guru bisa mundur-maju tanpa generate ulang
 
 ### Progress
 
 | Effort | Item |
 |---|---|
-| ✅ | Gemini terintegrasi via `@google/genai` v2.4 |
-| ✅ | Fallback generator lokal |
-| ✅ | State management React |
-| **M**  | - [ ] JSON mode / structured output di semua tahap |
-| **XL** | - [ ] Knowledge base CP upload / RAG |
+| Selesai | Gemini terintegrasi via `@google/genai` v2.4 |
+| Selesai | Mesin cadangan lokal |
+| Selesai | State management React |
+| M | - [ ] JSON mode di semua tahap |
+| XL | - [ ] Basis pengetahuan CP dengan RAG |
 
 ---
 
 ## 8. Roadmap Bertahap
 
-| Fase | Cakupan | Target | Effort Total |
-|---|---|---|---|
-| **MVP (v0.1)** ✅ | Wizard 4 seksi, dual jalur switch, fallback, dual-palette | Validasi alur backward design | Selesai |
-| **v0.2** | Pipeline dipecah 6 tahap, structured output, JSON mode | Kualitas output lebih konsisten | XL (~2 minggu) |
-| **v1.0** | Semua mapel Fase C, kedua jalur, RAG CP, ekspor Google Docs | Siap dipakai guru kelas 5 se-sekolah/gugus | XL (~4 minggu) |
-| **v2.0** | Ekspansi semua fase A–F, mapel PAI/Bahasa Arab/Mulok | Siap dipakai lintas jenjang | XL (~6 minggu) |
-| **v3.0** | Kolaborasi antar guru, share/duplikasi, analitik, akun user | Siap disebarluaskan ke banyak sekolah | XL+ (~8 minggu) |
+| Tahap | Cakupan | Target |
+|---|---|---|
+| Rilis Awal | Wizard empat seksi, dua jalur, mesin cadangan, dua palet | Validasi alur backward design |
+| Rilis Berikutnya | Pipeline enam tahap, structured output | Kualitas output lebih konsisten |
+| Ekspansi Skala Sekolah | Semua mapel Fase C, kedua jalur, RAG CP, ekspor Google Docs | Siap dipakai guru kelas 5 se-sekolah |
+| Ekspansi Lintas Jenjang | Semua fase A sampai F, mapel PAI/Bahasa Arab/Mulok | Siap dipakai lintas jenjang |
+| Kolaborasi Antar Sekolah | Kolaborasi guru, share/duplikasi, analitik, akun user | Siap disebarluaskan ke banyak sekolah |
 
 ---
 
-## 9. Risiko &amp; Mitigasi
+## 9. Risiko dan Mitigasi
 
 | Risiko | Mitigasi |
 |---|---|
-| **Halusinasi CP/regulasi** | CP sebagai data tetap (RAG), model hanya menjabarkan bukan menciptakan |
-| **KBC jadi "tempelan"** bukan terintegrasi | Aturan eksplisit di system instruction + validasi manual pada contoh awal |
-| Cakupan **"semua jenjang semua mapel"** terlalu besar | Roadmap bertahap: mulai Fase C sebelum ekspansi |
-| **Format output tidak konsisten** antar generate | Structured output (JSON) tiap tahap, render ke template terpisah |
-| **Load 6 tahap terasa lama** | Progress per tahap visual, izinkan edit tahap 1 sambil tahap 2 diproses |
+| Halusinasi CP atau regulasi | CP sebagai data tetap (RAG), model hanya menjabarkan bukan menciptakan |
+| KBC menjadi tempelan bukan terintegrasi | Aturan eksplisit di system instruction plus validasi manual pada contoh awal |
+| Cakupan "semua jenjang semua mapel" terlalu besar | Roadmap bertahap, mulai Fase C sebelum ekspansi |
+| Format output tidak konsisten antar generate | Structured output (JSON) tiap tahap, render ke template terpisah |
+| Load enam tahap terasa lama | Progress per tahap visual, izinkan edit tahap satu sambil tahap dua diproses |
 
 ---
 
-## 10. Cara Sponsor / Sokong Proyek
+## 10. Cara Sokong Proyek
 
-Proyek ini **gratis &amp; open source** — dibuat sebagai kontribusi untuk pendidikan Indonesia. Namun pengembangan berkelanjutan butuh dukungan. Kalau proyek ini bermanfaat untuk Anda / sekolah Anda:
+Proyek ini gratis dan terbuka. Namun pengembangan berkelanjutan membutuhkan dukungan. Bila proyek ini bermanfaat untuk Anda atau sekolah Anda:
 
-- ⭐ **Star repo ini** di GitHub — bantu naikkan visibilitas gratis
-- 🐛 **Report bug / usulkan fitur** — kontribusi terbaik adalah feedback
-- 💻 **Kontribusi kode** — lihat [`CONTRIBUTING.md`](../CONTRIBUTING.md), pilih 1 poin roadmap
-- 📢 **Bagikan ke sesama guru** — dari mulut ke mulut lebih efektif dari iklan
-- ☕ **Sponsor finansial** (opsional):
-  - Trakteer: `<URL_TRAKTEER_DIISI_SETELAH_DAFTAR>`
-  - Saweria: `<URL_SAWERIA_DIISI_SETELAH_DAFTAR>`
-  - Bank transfer / DANA / OVO: kontak email `pusaka.media.id@gmail.com`
-- 🏢 **Sponsorship perusahaan / sekolah** — kalau institusi Anda ingin sponsor development, kontak kami untuk kesepakatan mutual benefit (logo di README, prioritas fitur, dsb).
+- Beri bintang di repositori — membantu naikkan visibilitas
+- Laporkan bug atau usulkan fitur — kontribusi terbaik adalah umpan balik
+- Kontribusi kode — lihat [`CONTRIBUTING.md`](../CONTRIBUTING.md), pilih satu poin roadmap
+- Bagikan ke sesama guru — dari mulut ke mulut lebih efektif daripada iklan
+- Sponsor finansial (opsional): kontak pemilik proyek untuk detail
+- Sponsorship perusahaan atau sekolah — kontak untuk kesepakatan mutual benefit
 
-Setiap donasi (berapa pun) akan diakui di [README](../README.md#-ucapan-terima-kasih) &amp; catatan rilis. 🙏
+Setiap dukungan (berapa pun) akan diakui di [README](../README.md#ucapan-terima-kasih) dan catatan rilis.
 
 ---
 
 ## Cara Ikut Berkontribusi
 
 1. Pilih satu checkbox `- [ ]` di atas yang menarik untuk Anda
-2. Buka **Issue baru** dengan judul "Roadmap: [poin yang dipilih]"
-3. Diskusikan pendekatan dengan maintainer
+2. Buka issue baru dengan judul "Roadmap: [poin yang dipilih]"
+3. Diskusikan pendekatan dengan pemilik proyek
 4. Buka Pull Request
 
 Detail di [`CONTRIBUTING.md`](../CONTRIBUTING.md).
-
----
-
-**Sumber:** Blueprint GPP-AI oleh klien (Google Docs, Juli 2026).
