@@ -1,4 +1,4 @@
-# 🗺️ Roadmap — Menuju versi lengkap sesuai Blueprint GPP-AI
+# 📅 Roadmap — Menuju versi lengkap sesuai Blueprint GPP-AI
 
 > 🙏 **Roadmap ini disusun bersama guru MI Fase C** sebagai kasus penggunaan utama. Kalau Anda punya use case berbeda (SMA, SLB, PAUD, mapel yang belum terwakili), silakan [buka issue diskusi](https://github.com/pusakamediaid-dotcom/ai-instructional-designer-indonesia/issues/new?template=feature_request.yml) — kami senang dengar konteks Anda.
 

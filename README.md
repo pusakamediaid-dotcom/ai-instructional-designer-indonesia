@@ -67,7 +67,7 @@
 
 ---
 
-## 🏗️ Arsitektur
+## 🧩 Arsitektur
 
 ```mermaid
 flowchart LR
@@ -174,7 +174,7 @@ Buka **http://localhost:3000**
 
 ---
 
-## ☁️ Deploy
+## 🌐 Deploy
 
 Aplikasi ini terdiri dari **frontend (React)** + **backend Node.js/Express**. Karena butuh server long-running, pilih platform yang mendukung Node.js server (**bukan** static hosting).
 
@@ -220,7 +220,7 @@ Vercel dirancang untuk static site &amp; serverless functions. Aplikasi ini mema
 
 ---
 
-## 🗺️ Roadmap
+## 📅 Roadmap
 
 Versi saat ini adalah **MVP publik pertama (v0.1.0)**. Rencana rilis:
 
