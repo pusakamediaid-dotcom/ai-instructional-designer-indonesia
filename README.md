@@ -196,7 +196,7 @@ gcloud run deploy ai-instructional-designer \
   --set-env-vars GEMINI_API_KEY=<API_KEY_ANDA>
 ```
 
-Tunggu 3–5 menit → URL aplikasi muncul di terminal. Selesai. Detail lengkap ada di [`docs/PANDUAN_UNTUK_KLIEN.md#deploy-ke-google-cloud-run`](docs/PANDUAN_UNTUK_KLIEN.md#deploy-ke-google-cloud-run).
+Tunggu 3–5 menit → URL aplikasi muncul di terminal. Selesai. Detail lengkap ada di [`docs/PANDUAN_UNTUK_KLIEN.md` — Bagian E](docs/PANDUAN_UNTUK_KLIEN.md#e-deploy-ke-google-cloud-run).
 
 ### 🥈 Opsi 2 — Railway atau Render (Satu Klik)
 
