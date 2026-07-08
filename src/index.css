@@ -4,23 +4,40 @@
 /* --------------------------------------------------------------------
  * Dual-mode palette (Kemendikbud / Kemenag)
  * Referensi: Blueprint GPP-AI §6.3
- * Mode aktif diset lewat atribut `data-kurikulum` pada <html> atau <body>
- * (opsional — komponen ModeBadge sudah membaca prop langsung).
+ *
+ * Mode aktif di-set otomatis oleh App.tsx via:
+ *   document.documentElement.dataset.mode = 'kemendikbud' | 'kemenag'
+ *
+ * Konsumen: komponen apa pun dapat memakai `var(--mode-primary)` dst.
+ * Transisi warna smooth (300ms) supaya perpindahan mode tidak jarring.
  * -------------------------------------------------------------------- */
 :root {
   /* Default: Kemendikbud (indigo/biru) */
   --mode-primary: #4F46E5;         /* indigo-600 */
-  --mode-primary-soft: #E0E7FF;    /* indigo-100 */
+  --mode-primary-soft: #EEF2FF;    /* indigo-50  */
   --mode-primary-strong: #3730A3;  /* indigo-800 */
-  --mode-accent: #2563EB;          /* blue-600  */
+  --mode-accent: #2563EB;          /* blue-600   */
 }
 
-[data-kurikulum="KMA 1503"] {
+html[data-mode="kemenag"] {
   /* Kemenag – Kurikulum Berbasis Cinta (teal/hijau) */
-  --mode-primary: #0D9488;         /* teal-600  */
-  --mode-primary-soft: #CCFBF1;    /* teal-100  */
-  --mode-primary-strong: #115E59;  /* teal-800  */
+  --mode-primary: #0D9488;         /* teal-600   */
+  --mode-primary-soft: #F0FDFA;    /* teal-50    */
+  --mode-primary-strong: #115E59;  /* teal-800   */
   --mode-accent: #059669;          /* emerald-600 */
+}
+
+/* Backward-compat: skema lama masih dipakai jika ada komponen legacy */
+[data-kurikulum="KMA 1503"] {
+  --mode-primary: #0D9488;
+  --mode-primary-soft: #F0FDFA;
+  --mode-primary-strong: #115E59;
+  --mode-accent: #059669;
+}
+
+/* Smooth transition saat mode berganti */
+html {
+  transition: background-color 300ms ease;
 }
 
 @theme {

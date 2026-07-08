@@ -1,0 +1,35 @@
+name: ✨ Usulan Fitur
+description: Usulkan fitur baru atau peningkatan
+title: "[Fitur]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih atas usulan Anda! Sebelum mengirim, coba cek [ROADMAP.md](../blob/main/docs/ROADMAP.md) — mungkin sudah masuk rencana. 🙏
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Masalah yang Ingin Diselesaikan
+      description: Apa masalah yang Anda hadapi sekarang?
+      placeholder: Contoh — "Saya guru MI dan butuh mapel Bahasa Arab, tapi belum ada di daftar mapel."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Usulan Solusi
+      description: Bagaimana idealnya fitur ini bekerja?
+      placeholder: Contoh — "Tambahkan Bahasa Arab di dropdown mapel untuk jalur Kemenag..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatif yang Sudah Dipikirkan
+      description: Solusi lain yang mungkin?
+    validations:
+      required: false

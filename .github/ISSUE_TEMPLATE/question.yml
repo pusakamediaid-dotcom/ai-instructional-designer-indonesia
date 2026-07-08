@@ -1,0 +1,35 @@
+name: ❓ Pertanyaan
+description: Tanya cara pakai / dokumentasi kurang jelas
+title: "[Tanya]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Halo! Sebelum bertanya, coba cek dulu:
+        - [PANDUAN_UNTUK_KLIEN.md](../blob/main/docs/PANDUAN_UNTUK_KLIEN.md) — panduan step-by-step
+        - [Bagian FAQ](../blob/main/docs/PANDUAN_UNTUK_KLIEN.md#i-faq--10-pertanyaan-tersering) — 10 pertanyaan tersering
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Pertanyaan Anda
+      placeholder: Contoh — "Saya sudah `npm run dev` tapi browser tidak buka apa-apa, kenapa ya?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: Yang Sudah Anda Coba
+      placeholder: Contoh — "Sudah restart komputer, sudah cek Node.js versi 20."
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment (opsional)
+      placeholder: "macOS 14, Node 20, browser Safari"
+    validations:
+      required: false

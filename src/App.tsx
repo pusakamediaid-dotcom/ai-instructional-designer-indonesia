@@ -165,6 +165,13 @@ export default function App() {
     catatanTambahan: 'Fokus pada pembelajaran aktif dengan praktikum sederhana.'
   });
 
+  // Sinkronkan atribut data-mode di <html> untuk dual-palette CSS
+  // (Non-destruktif — hanya set attribute, tidak mengubah state React lain)
+  useEffect(() => {
+    const mode = discovery.kurikulum === 'KMA 1503' ? 'kemenag' : 'kemendikbud';
+    document.documentElement.dataset.mode = mode;
+  }, [discovery.kurikulum]);
+
   // Section 2 States
   const [cpAnalysis, setCpAnalysis] = useState<CPAnalysis | null>(null);
   const [tps, setTps] = useState<TPItem[]>([]);

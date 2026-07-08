@@ -1,0 +1,10 @@
+# Konfigurasi tombol "Sponsor" di halaman repo GitHub.
+# Hilangkan tanda # di awal baris & isi username Anda untuk mengaktifkan.
+#
+# Dokumentasi lengkap:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+# github: [pusakamediaid-dotcom]
+# ko_fi: username_kofi
+# buy_me_a_coffee: username_bmac
+# custom: ["https://trakteer.id/pusakamediaid", "https://saweria.co/pusakamediaid"]

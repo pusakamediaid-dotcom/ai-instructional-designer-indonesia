@@ -24,7 +24,7 @@ const ModeBadge: React.FC<ModeBadgeProps> = ({ kurikulum, compact = false }) => 
 
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-semibold shadow-inner ${cls}`}
+      className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-semibold shadow-inner transition-colors duration-500 ${cls}`}
       title={sublabel}
       aria-label={`${label} (${sublabel})`}
     >

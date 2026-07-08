@@ -22,14 +22,14 @@ const LandingHero: React.FC<LandingHeroProps> = ({ onStart }) => {
       <div className="pointer-events-none absolute -bottom-16 -left-16 w-64 h-64 rounded-full bg-teal-200/30 blur-3xl" />
 
       <div className="relative">
-        <div className="flex items-center gap-2 mb-3">
+        <div className="flex items-center gap-2 mb-3 flex-wrap">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-white/70 backdrop-blur px-3 py-1 text-[11px] font-semibold text-indigo-700 border border-indigo-200">
             <Sparkles className="w-3.5 h-3.5" />
-            MVP v0.1 — Publik Pertama
+            🎓 Gratis untuk Guru Indonesia
           </span>
         </div>
 
-        <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight text-slate-900">
+        <h2 className="text-2xl md:text-4xl font-extrabold tracking-tight text-slate-900 leading-tight">
           Rancang perangkat pembelajaran{' '}
           <span className="bg-gradient-to-r from-indigo-600 to-teal-600 bg-clip-text text-transparent">
             berkualitas dalam hitungan menit
@@ -76,6 +76,22 @@ const LandingHero: React.FC<LandingHeroProps> = ({ onStart }) => {
             </button>
           </div>
         )}
+
+        {/* Statistik singkat sebagai social proof */}
+        <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 text-[11px] font-medium text-slate-600">
+          <span className="inline-flex items-center gap-1">
+            <span className="w-1.5 h-1.5 rounded-full bg-indigo-500" />
+            <strong className="text-slate-800">160+</strong> CP Fase A siap pakai
+          </span>
+          <span className="inline-flex items-center gap-1">
+            <span className="w-1.5 h-1.5 rounded-full bg-teal-500" />
+            <strong className="text-slate-800">2</strong> jalur regulasi (Kemendikbud &amp; Kemenag)
+          </span>
+          <span className="inline-flex items-center gap-1">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+            <strong className="text-slate-800">&lt;5 menit</strong> per Modul Ajar
+          </span>
+        </div>
 
         <p className="mt-4 text-[11px] text-slate-500">
           Isi form konteks di bawah ini untuk memulai. Data Anda hanya diproses sementara —

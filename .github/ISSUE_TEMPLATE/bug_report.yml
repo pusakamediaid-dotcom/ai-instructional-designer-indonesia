@@ -1,0 +1,40 @@
+name: 🐛 Laporan Bug
+description: Laporkan bug / error yang Anda temukan
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih sudah melaporkan bug! Semakin detail, semakin cepat kami perbaiki. 🙏
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Deskripsi Bug
+      description: Ceritakan singkat apa yang terjadi.
+      placeholder: Contoh — "Saat klik 'Cetak PDF' di seksi Hasil Akhir, halaman jadi putih."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Langkah Reproduksi
+      description: Bagaimana kami bisa menampilkan bug ini di komputer kami?
+      placeholder: |
+        1. Buka aplikasi
+        2. Pilih Jalur "Kemendikbud"
+        3. Klik "Analisis CP"
+        4. ... muncul error
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, versi Node.js
+      placeholder: "Windows 11, Chrome 128, Node 20.10.0"
+    validations:
+      required: false
