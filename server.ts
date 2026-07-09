@@ -1,7 +1,9 @@
 import express from "express";
 import path from "path";
 import dotenv from "dotenv";
-import { createServer as createViteServer } from "vite";
+// Note: vite di-import secara dynamic di dalam startServer() supaya
+// serverless bundler (mis. Vercel) tidak wajib include vite (devDep only).
+// Import statement dipindah ke function scope.
 import { GoogleGenAI, Type } from "@google/genai";
 import {
   generateCPAnalysisFallback,
@@ -894,6 +896,7 @@ Ide Besar: ${blueprint?.bigIdea?.bigIdea}`;
 // Vite & Static file serving
 async function startServer() {
   if (process.env.NODE_ENV !== "production") {
+    const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",
