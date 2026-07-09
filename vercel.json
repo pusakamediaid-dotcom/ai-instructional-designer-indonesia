@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "functions": {
+    "api/index.ts": {
+      "maxDuration": 10,
+      "memory": 1024
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index" },
+    { "source": "/((?!assets/|favicon\\.svg|og-image\\.jpg|.*\\.[a-zA-Z0-9]+$).*)", "destination": "/api/index" }
+  ]
+}

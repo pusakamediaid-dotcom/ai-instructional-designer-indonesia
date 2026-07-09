@@ -20,6 +20,7 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
+export { app };
 
 const PORT = Number(process.env.PORT) || 3000;
 
