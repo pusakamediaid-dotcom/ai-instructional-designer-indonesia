@@ -1,30 +1,18 @@
 /**
- * Vercel Serverless Function — entry point untuk deploy Vercel.
+ * Vercel Serverless Function — entry point.
  *
- * File ini membungkus Express app dari server.ts sebagai serverless handler
- * menggunakan serverless-http. Untuk deploy Vercel:
- *   - Vercel routing `vercel.json` forward semua /api/* dan / ke handler ini
- *   - server.ts app instance di-reuse (single source of truth untuk routes)
- *   - startServer() dari server.ts tidak dipanggil di serverless environment
+ * Reuse Express app dari server.ts (yang diexpose via `export { app }`).
+ * Vercel Node runtime bisa langsung handle Express app sebagai (req, res) handler
+ * tanpa perlu serverless-http wrapper (Express app compatible dengan Node http.RequestListener signature).
  *
- * Untuk local dev / Docker / Cloud Run, tetap pakai `npm run dev`
- * yang eksekusi server.ts langsung (Express monolith mode).
+ * Untuk local/Docker/Cloud Run, tetap pakai `npm run dev` yang eksekusi server.ts
+ * secara langsung (Express monolith mode). server.ts sudah di-guard supaya tidak
+ * memicu app.listen() ketika VERCEL env var terset.
  */
 
-import serverless from 'serverless-http';
+import type { IncomingMessage, ServerResponse } from 'http';
 import { app } from '../server';
 
-// Serve frontend static files (dist/) juga lewat handler ini di production Vercel
-import path from 'path';
-import express from 'express';
-
-const distPath = path.join(process.cwd(), 'dist');
-app.use(express.static(distPath));
-
-// SPA fallback — kalau tidak match /api/*, serve index.html
-app.get('*', (req, res, next) => {
-  if (req.path.startsWith('/api/')) return next();
-  res.sendFile(path.join(distPath, 'index.html'));
-});
-
-export default serverless(app);
+export default function handler(req: IncomingMessage, res: ServerResponse) {
+  return (app as any)(req, res);
+}

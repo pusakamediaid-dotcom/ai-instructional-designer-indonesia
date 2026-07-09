@@ -10,7 +10,6 @@
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index" },
-    { "source": "/((?!assets/|favicon\\.svg|og-image\\.jpg|.*\\.[a-zA-Z0-9]+$).*)", "destination": "/api/index" }
+    { "source": "/api/:path*", "destination": "/api/index" }
   ]
 }
