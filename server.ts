@@ -16,7 +16,7 @@ import {
   generateCompileModuleFallback,
   generateLkpdFallback,
   generateBahanAjarFallback
-} from "./fallbackGenerators";
+} from "./fallbackGenerators.js";
 
 dotenv.config();
 
